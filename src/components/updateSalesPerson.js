@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from '../axios';
 
-const UpdateSalesperson = ({ salespersonId }) => {
+const UpdateSalesperson = ({ salespersonId }) => { 
   const [salesperson, setSalesperson] = useState({
     firstName: '',
     lastName: '',
